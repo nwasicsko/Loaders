@@ -1,38 +1,88 @@
+<!-- HTML -->
+<div>
+<h1>
+	<br>
+	<br>
+	<br>
+	<br>
+	<span class="span1">G</span>
+	<span class="span2">o</span>
+	<span class="span3">o</span>
+	<span class="span4">g</span>
+	<span class="span5">l</span>
+	<span class="span6">e</span>
+</h1>
+<div class="wrapper">
+  <div class="blue ball"></div>
+  <div class="red ball"></div>  
+  <div class="yellow ball"></div>  
+  <div class="green ball"></div>  
+</div>
+</div>
 <style>
-body {
+
+h1{
 	
-	
-	background: #e55039;
+	font-family: 'Nontseret', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	letter-spacing: -8px;
+	margin-top: 0;
+	span{
+		display: inline;
+}	
 }
-div {
-	font-size: 50px;;
-	display:inline;
-	position: 25px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-	margin: auto;
-	letter-spacing:10px;
-	color:white;
-	
+.span1{
+	color:#4285F4;
 }
-li{
-	text-decoration: none;
+.span2{
+	color:#DB4437;
+}
+.span3{
+	color:#F4B400;
+}
+.span4{
+	color:#4285F4;
+}
+.span5{
+	color:#0F9D58;;
+}
+.span6{
+	color:#DB4437;
+}
+/* CSS */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px
+}
+.ball {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  margin: 0 10px;
+  
+  animation: 2s bounce ease infinite;
+}
+.blue {
+  background-color: #4285F5;
+}
+.red {
+  background-color: #EA4436;
+  animation-delay: .25s;
+}
+.yellow {
+  background-color: #FBBD06;
+  animation-delay: .5s;
+}
+.green {
+  background-color: #34A952;
+  animation-delay: .75s;
+}
+@keyframes bounce {  
+    50% {
+        transform: translateY(25px);
+    }
 }
 </style>
-<body bgcolor="">
-
-</body>
-
-	<div>
-<li>L</li>
-<li>O</li>
-<li>A</li>
-<li>D</li>
-<li>I</li>
-<li>N</li>
-<li>G</li>
-
